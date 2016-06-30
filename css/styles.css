@@ -1,0 +1,568 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+.contenedor {
+	max-width: 1024px;
+	margin: 0 auto; 
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #2b3e4f;
+}
+
+header div h3 {
+	display: inline-block;
+	color: white;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 44px;
+}
+
+header div nav {
+	float: right;
+	padding-top: 44px;
+}
+
+header div nav li {
+	display: inline-block;
+}
+
+header div nav li a {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-left: 20px;
+	letter-spacing: .05em;
+}
+
+nav li a:hover {
+	background: #385f75;
+	padding: 7px 20px;
+}
+
+.principal {
+	text-align: center;
+	background: #00bd9d;
+}
+.principal img {
+	padding-top: 140px;
+	padding-bottom: 43px;
+}
+
+.principal h1 {
+	font-size: 4.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+.principal .ion-android-star,
+.about .ion-android-star {
+	font-size: 2em;
+}
+
+.principal h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6em;
+    padding-top: 25px;
+    padding-bottom: 105px;
+}
+
+.lineas:before,
+.about .lineas:before{
+	content: "";
+	position: relative;
+	top: -10px;
+	display: inline-block;
+	width: 105px;
+	height: 4px;
+	background: white;
+	margin-right: 7px;	
+}
+
+.lineas:after,
+.about .lineas:after {
+	content: "";
+	position: relative;
+	top: -10px;
+	display: inline-block;
+	width: 105px;
+	height: 4px;
+	background: white;
+	margin-left: 7px;	
+}
+
+.portfolio, .contact {
+	text-align: center;
+}
+
+.portfolio, .contact h2 {
+	font-size: 2.8em;
+	font-weight: 700;
+	color: #2c3d51;
+	padding-top: 110px;
+	text-transform: uppercase;
+	padding-bottom: 15px; 
+}
+
+.portfolio .ion-android-star,
+.contact .ion-android-star {
+	font-size: 2em;
+	color: #2c3d51;
+}
+
+.portfolio .lineas:before,
+.contact .lineas:before {
+	content: "";
+	position: relative;
+	top: -10px;
+	display: inline-block;
+	width: 105px;
+	height: 4px;
+	background: #2c3d51;
+	margin-right: 7px;	
+}
+
+.portfolio .lineas:after,
+.contact .lineas:after {
+	content: "";
+	position: relative;
+	top: -10px;
+	display: inline-block;
+	width: 105px;
+	height: 4px;
+	background: #2c3d51;
+	margin-left: 7px;	
+}
+
+.portfolio ul {
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.portfolio ul li {
+	width: 31%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.portfolio ul li div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,189,157,0.5);
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio ul li div:hover {
+	opacity: 1;
+	transition: 1s;
+}
+
+.portfolio ul li div .ion-search {
+	position: absolute;
+	font-size: 1.5em;
+	color: white;
+	top: 33%;
+	left: 43%;
+}
+
+.portfolio ul li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.portfolio ul li a img {
+	width: 100%;
+}
+
+.about {
+	text-align: center;
+	background: #00bd9d;
+}
+
+.about h2 {
+	font-size: 2.8em;
+	font-weight: 700;
+	color: white;
+	padding-top: 110px;
+	text-transform: uppercase;
+	padding-bottom: 15px; 
+}
+
+.about p {
+	font-size: 1em;
+	text-align: left;
+	width: 35%;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 110px;
+	margin-right: 50px;
+	line-height: 24px;
+}
+
+form {
+	max-width: 840px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 115px;
+	text-align: left;
+}
+
+form input {
+	width: 100%;
+	height: 85px;
+	color: #a8b5bd;
+	font-size: 1.3em;
+	padding-left: 10px;
+	border: 0;
+	border-top: 1px solid #f1f1f1;
+}
+
+form textarea {
+	width: 100%;
+	height: 130px;
+	color: #a8b5bd;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+	padding-left: 10px;
+	padding-top: 20px;
+	border: 0;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.send {
+	background: #00bd9d;
+	width: 100px;
+	color: white;
+	border-radius: 7px;
+	text-align: center;
+	font-size: 1em;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+footer {
+	background: #2b3e4f;
+	text-align: center;
+}
+
+.location {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	position: relative;
+	margin-right: 60px;
+	width: 317px;
+}
+
+.location h3 {
+	font-size: 1.4em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.location p {
+	font-size: 1em;
+	padding-top: 30px;
+    line-height: 1.5;
+}
+
+.social {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 70px;
+	margin-left: 60px;
+}
+
+.social h3 {
+	font-size: 1.4em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.social ul {
+	width: 350px;
+	padding-top: 27px;
+}
+
+.social ul li {
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid white;
+	width: 52px;
+	height: 52px;
+	margin-right: 12px;
+	position: relative;
+}
+
+.social ul li:last-child {
+	margin-right: 0px;
+}
+
+.social ul li a span {
+	font-size: 1.3em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+.copyright {
+	text-align: center;
+	background: #213140;
+	font-size: .8em;
+	padding-top: 30px;
+	padding-bottom: 30px; 
+}
+
+.flecha {
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+	width: 44px;
+	height: 44px;
+	background: #1c3d50;
+	border-radius: 50%;
+}
+
+.flecha a {
+	position: absolute;
+	color: white;
+	font-size: 1em;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 970px) {
+	.portfolio ul li:nth-child(3n) {
+	    margin-right: 20px;
+	}
+	.portfolio ul li:nth-child(2n) {
+	    margin-right: 0px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.contenedor {
+		max-width: 760px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	header div h3 {
+		display: inline-block;
+	    padding-bottom: 20px;
+	}
+
+	header div nav {
+		float: none;
+		padding-top: 15px;
+		padding-bottom: 40px;
+	}
+
+	header div nav li:first-child a {
+		padding-left: 0px;
+	}
+
+	.principal h1 {
+		font-size: 2.5em;
+	}
+
+	form {
+		max-width: 650px;
+	}
+
+	.location {
+		display: block;
+		width: 100%;
+		padding-top: 50px;
+		padding-bottom: 30px;
+		margin-right: 0px;
+	}
+
+	.social {
+		display: block;
+		text-align: center;
+		vertical-align: top;
+		padding-top: 30px;
+		margin-left: 0px;
+	}
+
+	.social ul {
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	
+}
+
+@media screen and (max-width: 375px) {
+	.contenedor {
+		max-width: 375px;
+	}
+
+	header {
+		text-align: left;
+	}
+
+	header div h3 {
+		font-size: 1em;
+		padding-top: 20px;
+	    padding-bottom: 20px;
+	    padding-left: 20px;
+	}
+
+	header div nav {
+		padding-bottom: 20px;
+		padding-left: 20px;
+	}
+
+	header div nav li a {
+		font-size: .7em;
+	}
+
+	.principal img {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		max-width: 220px;
+	}
+
+	.principal h1 {
+		font-size: 1.4em;
+		padding-bottom: 10px;
+	}
+
+	.principal h4 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1em;
+	    padding-top: 10px;
+	    padding-bottom: 45px;
+	}
+
+	.portfolio, .contact h2 {
+		font-size: 2em;
+		font-weight: 700;
+		color: #2c3d51;
+		padding-top: 60px;
+		text-transform: uppercase;
+		padding-bottom: 15px; 
+	}
+
+	.portfolio ul {
+		padding-bottom: 50px;
+	}
+
+	.portfolio ul li {
+		width: 90%;
+	    margin-bottom: 8px;
+	}
+
+	.portfolio ul li:nth-child(3n) {
+	    margin-right: 0px;
+	}
+	.portfolio ul li:nth-child(2n) {
+	    margin-right: 0px;
+	}
+
+	.portfolio ul li:nth-child(1n) {
+	    margin-right: 0px;
+	}
+
+	.about h2 {
+		font-size: 2em;
+		padding-top: 70px;
+	}
+
+	.about p {
+		font-size: .9em;
+		width: 90%;
+		padding-bottom: 60px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.about .segundo {
+		display: none;
+	}
+
+	form {
+		max-width: 100%;
+	}
+
+	form input {
+		height: 72px;
+		font-size: 1em;
+		padding-left: 10px;
+	}
+
+	form textarea {
+		font-size: 1em;
+	}
+
+	.location {
+		padding-bottom: 20px;
+	}
+
+	.location h3 {
+		font-size: 1.2em;
+	}
+
+	.social {
+		padding-top: 25px;
+	}
+
+	.social h3 {
+		font-size: 1.2em;
+	}
+
+	.social ul {
+		padding-bottom: 60px;
+	}
+
+	.social ul li {
+		width: 40px;
+		height: 40px;
+		margin-right: 8px;
+	}
+
+	.social ul li a span {
+		font-size: 1.1em;
+	}
+
+	.copyright {
+		font-size: .7em; 
+	}
+
+}
